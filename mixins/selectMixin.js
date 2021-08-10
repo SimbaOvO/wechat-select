@@ -1,5 +1,3 @@
-import { debounce } from '../utils/index'
-
 module.exports = Behavior({
   properties: {
     // 是否需要mask蒙层
