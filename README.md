@@ -5,9 +5,9 @@
 
 ## Look👀
 
-<img src="https://i.loli.net/2021/08/10/PdVjezt6E8kGBJv.gif" alt="inside.gif" style="zoom:50%;" />
+<img src="https://i.loli.net/2021/08/10/PdVjezt6E8kGBJv.gif" alt="inside.gif" width="261" height="243" />
 
-<img src="https://i.loli.net/2021/08/10/IcvAxql7t4UTZPC.gif" alt="inside.gif" style="zoom:50%;" />
+<img src="https://i.loli.net/2021/08/10/IcvAxql7t4UTZPC.gif" alt="inside.gif" width="264" height="308" />
 
 
 
@@ -56,4 +56,3 @@
 - [ ]  虚拟列表(?)
     - 冗余许多DOM在列表里带来的渲染压力太大了
     - 下拉框不会有很大体量的选择内容吧
-
