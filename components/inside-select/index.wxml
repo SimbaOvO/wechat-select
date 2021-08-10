@@ -1,0 +1,32 @@
+<view class="select-box">
+  <!-- mask蒙层 -->
+  <!--  <view wx:if="{{mask && show}}" class="select-box__mask" bindtap="hideSelect" />-->
+  
+  <view
+    class="inside-select__box"
+    style="max-height: {{ styles.maxHeight || height }}rpx;"
+  >
+    <view
+      class="inside-select__box__selected"
+      bindtap="changeStatus"
+      style="color: {{ styles.labelColor }}; line-height: {{ height }}rpx;"
+    >
+      {{ texts.label }}
+    </view>
+    <view
+      class="inside-select__box__view-box"
+      style="height: {{ styles.scrollHeight }}rpx"
+    >
+      <view
+        class="inside-select__box__view"
+        wx:for="{{ options }}"
+        wx:key="id"
+        data-id="{{ item.id }}"
+        bindtap="select"
+        style="color: {{val.id === item.id ? '#409eff' : '#000'}}; line-height: {{ height }}rpx"
+      >
+        {{ item.label }}
+      </view>
+    </view>
+  </view>
+</view>

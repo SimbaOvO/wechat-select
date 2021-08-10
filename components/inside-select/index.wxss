@@ -1,0 +1,30 @@
+@import '../../assets/styles/common.wxss';
+
+.select-box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.inside-select__box {
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  border-radius: 8rpx;
+  width: fit-content;
+  overflow: hidden;
+  transition: max-height 0.2s;
+  box-shadow: 0px 3px 10px 0px rgba(152, 158, 169, 0.2);
+}
+
+.inside-select__box__selected,
+.inside-select__box__view {
+  width: 200rpx;
+}
+
+.inside-select__box__view-box {
+  overflow: auto;
+}
+

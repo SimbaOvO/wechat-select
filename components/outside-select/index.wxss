@@ -1,0 +1,45 @@
+@import '../../assets/styles/common.wxss';
+
+.select-box {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.select-box__selected {
+  width: 200rpx;
+  background: #fff;
+  border-radius: 8rpx;
+  box-shadow: 0px 3px 10px 0px rgba(152, 158, 169, 0.2);
+}
+
+.select-box__view-box,
+.select-box__hidden-box {
+  width: fit-content;
+  background: #fff;
+  position: absolute;
+  z-index: 100;
+  box-shadow: 0rpx 3rpx 10rpx 0rpx rgba(152, 158, 169, 0.2);
+  border-radius: 10rpx;
+}
+
+.select-box__view-box::after {
+  position: absolute;
+  bottom: 99%;
+  right: 10%;
+  content: '';
+  border-left: 20rpx solid transparent;
+  border-right: 20rpx solid transparent;
+  border-bottom: 20rpx solid rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px -3rpx 2rpx rgba(152, 158, 169, .2));
+  z-index: 1000;
+}
+
+.container::after{
+  height: 0;
+  box-shadow: none;
+}
+

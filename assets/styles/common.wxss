@@ -1,0 +1,25 @@
+.select-box__mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.container {
+  width: 200rpx;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  overflow: auto;
+  box-shadow: 0rpx 3rpx 10rpx 0rpx rgba(152, 158, 169, 0.2);
+  transition: height 0.2s;
+  border-radius: 10rpx;
+}
+
+.container::-webkit-scrollbar,
+.inside-select__box__view-box::-webkit-scrollbar {
+  display: none;
+}

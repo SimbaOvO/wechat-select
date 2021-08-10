@@ -5,7 +5,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "Select 下拉组件",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
