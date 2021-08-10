@@ -44,6 +44,39 @@
 
 
 
+## Directory📁
+
+|-- Desktop
+    |-- app.js
+    |-- app.json
+    |-- app.wxss
+    |-- project.config.json
+    |-- sitemap.json
+    |-- assets
+    |   |-- styles												  // 存放复用的CSS文件夹
+    |       |-- common.wxss							  // 组件内部找不到的样式可以来这里找
+    |-- components
+    |   |-- inside-select									   // 内联Select下拉组件
+    |   |   |-- index.js
+    |   |   |-- index.json
+    |   |   |-- index.wxml
+    |   |   |-- index.wxss
+    |   |-- outside-select									// 外置悬空Select下拉组件
+    |       |-- index.js
+    |       |-- index.json
+    |       |-- index.wxml
+    |       |-- index.wxss
+    |-- mixins													  // 存放组件复用的Behavior
+    |   |-- selectMixin.js									// 主要的逻辑和属性在这里面可以找得到
+    |-- pages
+        |-- index													// Demo展示的页面
+            |-- index.js
+            |-- index.json
+            |-- index.wxml
+            |-- index.wxss
+
+
+
 ## TODO
 
 - [x] 内联显示 / 外部悬空
