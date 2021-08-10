@@ -46,7 +46,7 @@
 
 ## Directory📁
 
-|-- Desktop
+|-- WeChat-select
     |-- app.js
     |-- app.json
     |-- app.wxss
