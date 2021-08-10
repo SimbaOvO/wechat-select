@@ -3,7 +3,15 @@
 
 
 
-## Notes
+## Look👀
+
+<img src="https://i.loli.net/2021/08/10/PdVjezt6E8kGBJv.gif" alt="inside.gif" style="zoom:50%;" />
+
+<img src="https://i.loli.net/2021/08/10/IcvAxql7t4UTZPC.gif" alt="inside.gif" style="zoom:50%;" />
+
+
+
+## Notes📒
 
 - 本项目是为了解决小程序社区中 没有符合业务需求的下拉组件设计的一个demo 欢迎clone康康👏
 
@@ -15,7 +23,7 @@
 
 
 
-## Props  
+## Props⚙️
 | Name     | Description                                                  | Type     | Default                                                      |
 | -------- | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
 | options  | 下拉选项的列表                                               | Option[] | [{ id: 0, label: '车牌号码' },{ id: 1, label: '品牌车系' },{ id: 2, label: '车架号码' }]<br />(目前默认是通过每一项里面的id来作为唯一标识 如果需要改变数据结构 需联动修改页面循环渲染部分) |
@@ -27,7 +35,7 @@
 
 
 
-## Events
+## Events📢
 *考虑是否需要open & close的event💭*
 
 | Event  | Description      | Details                                                      |
