@@ -12,7 +12,7 @@ yarn-error.log*
 .prettierrc
 
 # Editor directories and files
-#.idea
+.idea
 *.suo
 *.ntvs*
 *.njsproj
