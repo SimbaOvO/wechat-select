@@ -40,7 +40,7 @@
 
 | Event  | Description      | Details                                                      |
 | ------ | ---------------- | ------------------------------------------------------------ |
-| Select | 选中某项后的回调 | 包含回调数据的Event对象 [想要看官方的类型定义可以点这里](https://github.com/wechat-miniprogram/api-typings/blob/master/types/wx/lib.wx.event.d.ts) |
+| select | 选中某项后的回调 | 包含回调数据的Event对象 [想要看官方的类型定义可以点这里](https://github.com/wechat-miniprogram/api-typings/blob/master/types/wx/lib.wx.event.d.ts) |
 
 
 
